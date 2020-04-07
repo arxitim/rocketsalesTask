@@ -1,0 +1,22 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.data {
+    margin: 0 auto;
+    border-spacing: 16px 0;
+}
+
+td {
+    padding: 12px;
+}
+
+.thead td {
+    border-bottom: solid #fde2a4;
+    border-width: 2px; 
+}
+
+tr:not(:first-of-type) {
+    color: rgba(0,0,0,.65);
+}

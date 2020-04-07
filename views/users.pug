@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  h3= title
+  <table class="data">
+        <tr class="thead">
+            <td>Полное имя</td>
+            <td>Телефон</td>
+            <td>Email</td>
+            <td>Должность</td>
+        </tr>
+
+        each contact in contacts
+            tr
+                td= contact.name
+                td= contact.phone
+                td= contact.email
+                td= contact.position
+
+  </table>
+
+     
+
+
