@@ -4,7 +4,7 @@ var router = express.Router();
 var request = require('request');
 //auth parameters
 var USER_LOGIN = 'arxitim@protonmail.com';
-var USER_HASH = 'efb9858095e01db5a3e9792fb97669d2d13296b3';
+var USER_HASH = 'production secret';
 //
 
 /* GET contacts listing. */
